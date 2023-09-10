@@ -1,6 +1,6 @@
 #!/bin/bash
 
-flatpak_output=$(flatpak list)
+flatpak_output=$(flatpak list --app)
 
 csv_file="flatpak_apps.csv"
 
